@@ -10,7 +10,7 @@ const app = configureExpress();
 const localPort = 3000;
 let port = normalizePort(process.env.port || localPort);
 
-//app.set('port', port);
+app.set('port', port);
 app.listen(port);
 //http.createServer(app);
 //let server = http.createServer(app);
