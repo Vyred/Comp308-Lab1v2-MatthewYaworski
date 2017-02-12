@@ -12,12 +12,13 @@ let port = normalizePort(process.env.port || localPort);
 
 app.set('port', port);
 app.listen(port);
+
 //http.createServer(app);
-//let server = http.createServer(app);
+let server = http.createServer(app);
 app.on('error', onError);
 app.on('listening', onListening);
-module.exports = app;
-console.log('Server running at http://localhost:' + port +'/');
+
+//console.log('Server running at http://localhost:' + port +'/');
 
 
 /**
@@ -81,3 +82,4 @@ function onListening() {
 }
 
 
+module.exports = app;

@@ -1,6 +1,7 @@
 {
-  "name": "horizontal.style",
+  "name": "lab1",
   "version": "1.0.0",
+  "private": true,
   "description": "yo",
   "scripts": {
     "start": "node server.js"
@@ -21,7 +22,7 @@
     "express-session": "1.15.0",
     "method-override": "2.3.7",
     "morgan": "1.7.0",
-    "mongoose": "4.8.1",
+    "mongoose": "^4.8.1",
     "passport": "0.3.2",
     "passport-google-oauth": "1.0.0",
     "passport-local": "1.0.0",
@@ -32,6 +33,20 @@
     "npm": ">=3.5.0"
   },
   "main": "server.js",
-  "devDependencies": {}
-
+  "devDependencies": {},
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vyred/Comp308-Lab1v2-MatthewYaworski.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "EJS"
+  ],
+  "author": "matt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CentennialCollege/COMP308-W2017-Lesson5A/issues"
+  },
+  "homepage": "https://github.com/CentennialCollege/COMP308-W2017-Lesson5A#readme"
 }
