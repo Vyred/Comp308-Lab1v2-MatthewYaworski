@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "yo",
   "scripts": {
-    "start": "server.js"
+    "start": "node server.js"
   },
   "keywords": [
     "nope"
@@ -30,5 +30,8 @@
   "engines": {
     "node": ">=6.0.0",
     "npm": ">=3.5.0"
-  }
+  },
+  "main": "server.js",
+  "devDependencies": {}
+
 }
